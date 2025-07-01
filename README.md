@@ -62,8 +62,6 @@ POST /api/Auth/login con admin/admin123.
 
 Copiar token de la respuesta 200 OK.
 
-Si da error 500, verificar JwtSettings:Secret, hashes en ApplicationDbContext.cs y BCrypt.Net.BCrypt.Verify en AuthController.cs.
-
 Clic en "Authorize" en Swagger UI.
 
 Pegar token con prefijo Bearer (con espacio).
